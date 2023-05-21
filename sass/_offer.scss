@@ -1,0 +1,18 @@
+.offer {
+  padding-top: 241px;
+  padding-bottom: 161px;
+  background: url("/img/photo_main-offer.jpg") center no-repeat;
+  color: #fff;
+  line-height: 1.5;
+  &__title {
+    font-size: 48px;
+    margin: 0 0 55px;
+    max-width: 454px;
+  }
+  &__desc {
+    font-size: 24px;
+    max-width: 300px;
+    margin: 0 0 55px;
+    line-height: 1.5;
+  }
+}

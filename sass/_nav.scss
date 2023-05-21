@@ -1,0 +1,46 @@
+.nav{
+  &__list {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+  }
+  &__link {
+    text-decoration: none;
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: 18px;
+    position: relative;
+
+    &:before {
+      content:"";
+      width: 100%;
+      height: 2px;
+      background: transparent;
+      position: absolute;
+      left: 0;
+      top: 100%;
+    }
+    &_active {
+      color: var(--accent-color);
+
+      &:before {
+        background: currentColor;
+      }
+    }
+  }
+}
+
+.footer__nav {
+  &__list {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+  }
+  &__link {
+    text-decoration: none;
+    color: var(--main-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+}
